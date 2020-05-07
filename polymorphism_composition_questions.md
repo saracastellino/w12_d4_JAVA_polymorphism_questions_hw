@@ -3,13 +3,13 @@
 # Polymorphism
 
 <details>
-<summary>1. What does the *word* 'polymorphism' mean?</summary>
+<summary>1. What does the word 'polymorphism' mean?</summary>
 <p>It means "having more than one shape", coming from the Greek πολύμορϕος (πολυ- "multiple-" and μορϕή "shape").</p>
 </details>
 
 <details>
 <summary>2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.</summary>
-<p>It means that the objects of a class will present the properties and the methods belonging to another class, more specifically to its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class. For example, if we have the class HybridCar and a parent class Car, the HybridCar's instances will be inheriting all the variables and the methods belonging to its parent class Car.</p>
+<p>It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class. For example, if we have the class HybridCar and a parent class Car, the HybridCar's instances will be inheriting all the variables and the methods belonging to its parent class Car.</p>
 </details>
 
 <details>
@@ -25,7 +25,7 @@
 <details>
 <summary>5. Give an example of when you could use polymorphism.</summary>
 <p>Task: create a paddock that includes horses and unicorns.
-We could create the Horse and Unicorn classes, where Unicorn inherits from Horse, then create an ArrayList of Horses that includes both classes. We can only include both in the same array because Unicorn is both an instance of Unicorn and a type of Horse.</p>
+We could create the Horse and Unicorn classes, where Unicorn inherits from Horse, then create an ArrayList of Horses that includes both classes. We can only include both in the same array because Unicorn is both an instance of Unicorn and a type of Horse. The opposite (all horses are unicorns) is not valid.</p>
 
 ```
 // HORSE CLASS
