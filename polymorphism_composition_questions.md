@@ -46,10 +46,10 @@ public class Horse {
     return numberOfHooves;
   }
 }
-```
+
 
 // UNICORN CLASS
-```
+
 public class Unicorn extends Horse{
 
   private int numberOfHorns;
@@ -63,11 +63,11 @@ public class Unicorn extends Horse{
     return numberOfHorns;
   }
 }
-```
+
 
 // PADDOCK CLASS
 [...]
-```
+
   ArrayList<Horse> paddockHorses= new ArrayList<>();
     Horse sandy = new Horse ("black", 4);
     Horse pie = new Horse ("blonde", 4);
