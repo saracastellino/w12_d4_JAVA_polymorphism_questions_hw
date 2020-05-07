@@ -95,7 +95,7 @@ We mean that the objects of a class will have the behaviour of another class, al
 
 <details>
 <summary>7. When would you use composition? Provide a simple example in Java.</summary>
-Task: create a cupboard.
+Task: create a cupboard.  
 To create the class `Cupboard` we could create each component of the cupboard as a single class, ie `Door`, `Handler`, `Shelf`, `Panel` and use them as instance variables of the class `Cupboard`. We can see at that point how the `Cupboard` "has-a" `Door`, `Handler`, `Shelf`, `Panel`.
 </details>
 
