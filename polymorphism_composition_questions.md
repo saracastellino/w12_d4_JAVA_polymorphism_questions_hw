@@ -3,7 +3,7 @@
 # Polymorphism
 
 <details>
-<summary>1. What does the ___word___ 'polymorphism' mean?</summary>
+<summary>1. What does the __word__ 'polymorphism' mean?</summary>
 <p>It means "having more than one shape", coming from the Greek πολύμορϕος (πολυ- "multiple-" and μορϕή "shape").</p>
 </details>
 
@@ -27,8 +27,9 @@
 <p>Task: create a paddock that includes horses and unicorns.
 We could create the Horse and Unicorn classes, where Unicorn inherits from Horse, then create an ArrayList of Horses that includes both classes. We can only include both in the same array because Unicorn is both an instance of Unicorn and a type of Horse.</p>
 
-// HORSE CLASS
 ```
+// HORSE CLASS
+
 public class Horse {
   private String maneColour:
   private int numberOfHooves;
