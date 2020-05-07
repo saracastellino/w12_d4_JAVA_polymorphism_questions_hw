@@ -111,6 +111,6 @@ To create the class `Cupboard` we could create each component of the cupboard as
 </details>
 
 <details>
-<summary>9. When an object is destroyed, what happens to all the objects it is composed of?<details></summary>
+<summary>9. When an object is destroyed, what happens to all the objects it is composed of?</summary>
 <p>They are destroyed.</p>
 </details>
