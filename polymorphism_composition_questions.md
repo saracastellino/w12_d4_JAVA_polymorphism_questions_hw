@@ -95,16 +95,22 @@ public class Unicorn extends Horse{
 
 <details>
 <summary>7. When would you use composition? Provide a simple example in Java.</summary>
-<p>It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class. For example, if we have the class HybridCar and a parent class Car, the HybridCar's instances will be inheriting all the variables and the methods belonging to its parent class Car.</p>
+<p>Task: create a cupboard.
+To create the class `Cupboard` we could create each component of the cupboard as a single class, ie `Door`, `Handler`, `Shelf`, `Panel` and use them as instance variables of the class `Cupboard`.</p>
 </details>
 
 <details>
 <summary>8. What is/are the advantage(s) of using composition?
 </summary>
-<p>It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class. For example, if we have the class HybridCar and a parent class Car, the HybridCar's instances will be inheriting all the variables and the methods belonging to its parent class Car.</p>
+<p>The advantages of using composition are that:
+- there is no need to override methods in the composed class;
+- it allows the composed class to accept as many classes as needed;
+- the composed class is not intaking unnecessary behaviours from the ancestors;
+- the composed class is not polluted by unnecessary coding (ie duplicated methods coming from different classes just to achieve having only some of those classes behaviours);
+</p>
 </details>
 
 <details>
 <summary>9. When an object is destroyed, what happens to all the objects it is composed of?<details></summary>
-<p>It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class. For example, if we have the class HybridCar and a parent class Car, the HybridCar's instances will be inheriting all the variables and the methods belonging to its parent class Car.</p>
+<p>They are destroyed.</p>
 </details>
