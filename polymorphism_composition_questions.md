@@ -9,7 +9,7 @@
 
 <details>
 <summary>2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.</summary>
-<p>It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class. For example, if we have the class HybridCar and a parent class Car, the HybridCar's instances will be inheriting all the variables and the methods belonging to its parent class Car.</p>
+<p>It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class, and establishes a "is-a" relationship between classes. For example, if we have the class HybridCar and a parent class Car, the HybridCar's instances will be inheriting all the variables and the methods belonging to its parent class Car.</p>
 </details>
 
 <details>
@@ -88,10 +88,23 @@ public class Unicorn extends Horse{
 
 # Composition
 
-6. What do we mean by 'composition' in reference to object-oriented programming?
+<details>
+<summary>6. What do we mean by 'composition' in reference to object-oriented programming?</summary>
+<p>We mean that the objects of a class will have the behaviour of another class, allowing the first to reuse the second's code. It establishes a "has-a" relationship between classes.</p>
+</details>
 
-7. When would you use composition? Provide a simple example in Java.
+<details>
+<summary>7. When would you use composition? Provide a simple example in Java.</summary>
+<p>It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class. For example, if we have the class HybridCar and a parent class Car, the HybridCar's instances will be inheriting all the variables and the methods belonging to its parent class Car.</p>
+</details>
 
-8. What is/are the advantage(s) of using composition?
+<details>
+<summary>8. What is/are the advantage(s) of using composition?
+</summary>
+<p>It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class. For example, if we have the class HybridCar and a parent class Car, the HybridCar's instances will be inheriting all the variables and the methods belonging to its parent class Car.</p>
+</details>
 
-9. When an object is destroyed, what happens to all the objects it is composed of?<details>
+<details>
+<summary>9. When an object is destroyed, what happens to all the objects it is composed of?<details></summary>
+<p>It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class. For example, if we have the class HybridCar and a parent class Car, the HybridCar's instances will be inheriting all the variables and the methods belonging to its parent class Car.</p>
+</details>
