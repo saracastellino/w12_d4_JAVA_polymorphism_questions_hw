@@ -9,7 +9,7 @@
 
 <details>
 <summary>2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.</summary>
-<p>It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class, and establishes a "is-a" relationship between classes. For example, if we have the class HybridCar and a parent class Car, the HybridCar's instances will be inheriting all the variables and the methods belonging to its parent class Car.</p>
+<p>It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class, and establishes a "is-a" relationship between classes. For example, if we have the class `HybridCar` and a parent class `Car`, the `HybridCar`'s instances will be inheriting all the variables and the methods belonging to its parent class `Car` as `HybridCar` "is a" `Car`.</p>
 </details>
 
 <details>
@@ -25,7 +25,7 @@
 <details>
 <summary>5. Give an example of when you could use polymorphism.</summary>
 <p>Task: create a paddock that includes horses and unicorns.
-We could create the Horse and Unicorn classes, where Unicorn inherits from Horse, then create an ArrayList of Horses that includes both classes. We can only include both in the same array because Unicorn is both an instance of Unicorn and a type of Horse. The opposite (all horses are unicorns) is not valid.</p>
+We could create the `Horse` and `Unicorn` classes, where `Unicorn` inherits from `Horse`, then create an ArrayList of Horses that includes both classes. We can only include both in the same array because `unicorn` is both an instance of `Unicorn` and a type of `Horse`. The opposite (all horses are unicorns) is not valid.</p>
 
 ```
 // HORSE CLASS
@@ -96,7 +96,7 @@ public class Unicorn extends Horse{
 <details>
 <summary>7. When would you use composition? Provide a simple example in Java.</summary>
 <p>Task: create a cupboard.
-To create the class `Cupboard` we could create each component of the cupboard as a single class, ie `Door`, `Handler`, `Shelf`, `Panel` and use them as instance variables of the class `Cupboard`.</p>
+To create the class `Cupboard` we could create each component of the cupboard as a single class, ie `Door`, `Handler`, `Shelf`, `Panel` and use them as instance variables of the class `Cupboard`. We can see at that point how the `Cupboard` "has-a" `Door`, `Handler`, `Shelf`, `Panel`.</p>
 </details>
 
 <details>
@@ -105,7 +105,7 @@ To create the class `Cupboard` we could create each component of the cupboard as
 <p>The advantages of using composition are that:
 - there is no need to override methods in the composed class;
 - it allows the composed class to accept as many classes as needed;
-- the composed class is not intaking unnecessary behaviours from the ancestors;
+- the composed class is not intaking unnecessary behaviours from its ancestors;
 - the composed class is not polluted by unnecessary coding (ie duplicated methods coming from different classes just to achieve having only some of those classes behaviours);
 </p>
 </details>
