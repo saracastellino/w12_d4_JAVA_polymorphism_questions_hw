@@ -4,28 +4,28 @@
 
 <details>
 <summary>1. What does the word 'polymorphism' mean?</summary>
-<p>It means "having more than one shape", coming from the Greek πολύμορϕος (πολυ- "multiple-" and μορϕή "shape").</p>
+It means "having more than one shape", coming from the Greek πολύμορϕος (πολυ- "multiple-" and μορϕή "shape").
 </details>
 
 <details>
 <summary>2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.</summary>
-<p>It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class, and establishes a "is-a" relationship between classes. For example, if we have the class `HybridCar` and a parent class `Car`, the `HybridCar`'s instances will be inheriting all the variables and the methods belonging to its parent class `Car` as `HybridCar` "is a" `Car`.</p>
+It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class, and establishes a "is-a" relationship between classes. For example, if we have the class `HybridCar` and a parent class `Car`, the `HybridCar`'s instances will be inheriting all the variables and the methods belonging to its parent class `Car` as `HybridCar` "is a" `Car`.
 </details>
 
 <details>
 <summary>3. What can we use to implement polymorphism in Java?</summary>
-<p>We can use both abstract classes and interfaces: interfaces are preferable as they are lighter and more easily usable than inheritance.</p>
+We can use both abstract classes and interfaces: interfaces are preferable as they are lighter and more easily usable than inheritance.
 </details>
 
 <details>
 <summary>4. How many 'forms' can an object take when using polymorphism?</summary>
-<p>It can have as many shapes as the number of classes from which it inherits, being them related "genealogically" (eg. the class is inheriting from its parent class and from the grand parent class, from which the parent class is inheriting primarily) or by interface.</p>
+It can have as many shapes as the number of classes from which it inherits, being them related "genealogically" (eg. the class is inheriting from its parent class and from the grand parent class, from which the parent class is inheriting primarily) or by interface.
 </details>
 
 <details>
 <summary>5. Give an example of when you could use polymorphism.</summary>
-<p>Task: create a paddock that includes horses and unicorns.
-We could create the `Horse` and `Unicorn` classes, where `Unicorn` inherits from `Horse`, then create an ArrayList of Horses that includes both classes. We can only include both in the same array because `unicorn` is both an instance of `Unicorn` and a type of `Horse`. The opposite (all horses are unicorns) is not valid.</p>
+Task: create a paddock that includes horses and unicorns.
+We could create the `Horse` and `Unicorn` classes, where `Unicorn` inherits from `Horse`, then create an ArrayList of Horses that includes both classes. We can only include both in the same array because `unicorn` is both an instance of `Unicorn` and a type of `Horse`. The opposite (all horses are unicorns) is not valid.
 
 ```
 // HORSE CLASS
@@ -90,27 +90,26 @@ public class Unicorn extends Horse{
 
 <details>
 <summary>6. What do we mean by 'composition' in reference to object-oriented programming?</summary>
-<p>We mean that the objects of a class will have the behaviour of another class, allowing the first to reuse the second's code. It establishes a "has-a" relationship between classes.</p>
+We mean that the objects of a class will have the behaviour of another class, allowing the first to reuse the second's code. It establishes a "has-a" relationship between classes.
 </details>
 
 <details>
 <summary>7. When would you use composition? Provide a simple example in Java.</summary>
-<p>Task: create a cupboard.
-To create the class `Cupboard` we could create each component of the cupboard as a single class, ie `Door`, `Handler`, `Shelf`, `Panel` and use them as instance variables of the class `Cupboard`. We can see at that point how the `Cupboard` "has-a" `Door`, `Handler`, `Shelf`, `Panel`.</p>
+Task: create a cupboard.
+To create the class `Cupboard` we could create each component of the cupboard as a single class, ie `Door`, `Handler`, `Shelf`, `Panel` and use them as instance variables of the class `Cupboard`. We can see at that point how the `Cupboard` "has-a" `Door`, `Handler`, `Shelf`, `Panel`.
 </details>
 
 <details>
 <summary>8. What is/are the advantage(s) of using composition?
 </summary>
-<p>The advantages of using composition are that:
-* there is no need to override methods in the composed class;
-* it allows the composed class to accept as many classes as needed;
-* the composed class is not intaking unnecessary behaviours from its ancestors;
-* the composed class is not polluted by unnecessary coding (ie duplicated methods coming from different classes just to achieve having only some of those classes behaviours);
-</p>
+The advantages of using composition are that:
+* there is no need to override methods in the composed class;  
+* it allows the composed class to accept as many classes as needed;  
+* the composed class is not intaking unnecessary behaviours from its ancestors;  
+* the composed class is not polluted by unnecessary coding (ie duplicated methods coming from different classes just to achieve having only some of those classes behaviours).
 </details>
 
 <details>
 <summary>9. When an object is destroyed, what happens to all the objects it is composed of?</summary>
-<p>They are destroyed.</p>
+They are destroyed.
 </details>
