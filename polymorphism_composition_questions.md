@@ -99,10 +99,9 @@ Task: create a cupboard.
 To create the class `Cupboard` we could create each component of the cupboard as a single class, ie `Door`, `Handler`, `Shelf`, `Panel` and use them as instance variables of the class `Cupboard`. We can see at that point how the `Cupboard` "has-a" `Door`, `Handler`, `Shelf`, `Panel`.
 </details>
 
-
+<details>
 <summary>8. What is/are the advantage(s) of using composition?
 </summary>
-<details>
 The advantages of using composition are that:
 * there is no need to override methods in the composed class;  
 * it allows the composed class to accept as many classes as needed;  
@@ -110,8 +109,7 @@ The advantages of using composition are that:
 * the composed class is not polluted by unnecessary coding (ie duplicated methods coming from different classes just to achieve having only some of those classes behaviours).
 </details>
 
-
-<summary>9. When an object is destroyed, what happens to all the objects it is composed of?</summary>
 <details>
+<summary>9. When an object is destroyed, what happens to all the objects it is composed of?</summary>
 They are destroyed.
 </details>
