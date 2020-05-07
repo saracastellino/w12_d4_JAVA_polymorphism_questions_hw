@@ -3,7 +3,7 @@
 # Polymorphism
 
 <details>
-<summary>1. What does the __word__ 'polymorphism' mean?</summary>
+<summary>1. What does the *word* 'polymorphism' mean?</summary>
 <p>It means "having more than one shape", coming from the Greek πολύμορϕος (πολυ- "multiple-" and μορϕή "shape").</p>
 </details>
 
