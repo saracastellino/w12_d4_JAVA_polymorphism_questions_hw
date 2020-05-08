@@ -3,7 +3,7 @@
 # Polymorphism
 
 <details>
-<summary>1. What does the word 'polymorphism' mean?</summary>
+<summary>1. What does the <em>word</em> 'polymorphism' mean?</summary>
 It means "having more than one shape", coming from the Greek πολύμορϕος (πολυ- "multiple-" and μορϕή "shape").
 </details>
 
@@ -25,7 +25,7 @@ It can have as many shapes as the number of classes from which it inherits, bein
 <details>
 <summary>5. Give an example of when you could use polymorphism.</summary>
 Task: create a paddock that includes horses and unicorns.
-We could create the `Horse` and `Unicorn` classes, where `Unicorn` inherits from `Horse`, then create an ArrayList of Horses that includes both classes. We can only include both in the same array because `unicorn` is both an instance of `Unicorn` and a type of `Horse`. The opposite (all horses are unicorns) is not valid.
+We could create the `Horse` and `Unicorn` classes, where `Unicorn` inherits from `Horse`, then create an ArrayList of Horses that includes both classes. We can only include both in the same array because `unicorn` is both an instance of `Unicorn` and a type of `Horse`, and each `unicorn` "is-a" `horse`. The opposite (all horses are unicorns) is not valid.
 
 ```
 // HORSE CLASS
