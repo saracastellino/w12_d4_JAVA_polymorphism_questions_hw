@@ -9,7 +9,7 @@ It means "having more than one shape", coming from the Greek πολύμορϕο�
 
 <details>
 <summary>2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.</summary>
-It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class, and establishes a "is-a" relationship between classes. For example, if we have the class `HybridCar` and a parent class `Car`, the `HybridCar`'s instances will be inheriting all the variables and the methods belonging to its parent class `Car` as `HybridCar` "is a" `Car`.
+It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class, and establishes a "is-a" relationship between classes. For example, if we have the class <code>HybridCar</code> and a parent class <code>Car</code>, the `HybridCar`'s instances will be inheriting all the variables and the methods belonging to its parent class `Car` as `HybridCar` "is a" `Car`.
 </details>
 
 <details>
