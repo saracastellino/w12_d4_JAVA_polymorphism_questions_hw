@@ -25,7 +25,7 @@ It can have as many shapes as the number of classes from which it inherits, bein
 <details>
 <summary>5. Give an example of when you could use polymorphism.</summary>
 Task: create a paddock that includes horses and unicorns.
-We could create the <code>Horse<code> and <code>Unicorn<code> classes, where <code>Unicorn<code> inherits from <code>Horse<code>, then create an ArrayList of Horses that includes both classes. We can only include both in the same array because <code>unicorn</code> is both an instance of <code>Unicorn</code> and a type of <code>Horse</code>, and each <code>unicorn</code> "is-a" <code>horse</code>. The opposite (all horses are unicorns) is not valid.
+We could create the <code>Horse</code> and <code>Unicorn</code> classes, where <code>Unicorn</code> inherits from <code>Horse</code>, then create an ArrayList of Horses that includes both classes. We can only include both in the same array because <code>unicorn</code> is both an instance of <code>Unicorn</code> and a type of <code>Horse</code>, and each <code>unicorn</code> "is-a" <code>horse</code>. The opposite (all horses are unicorns) is not valid.
 
 ```
 // HORSE CLASS
