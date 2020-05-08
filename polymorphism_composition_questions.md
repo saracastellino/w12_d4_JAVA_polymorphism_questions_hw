@@ -103,10 +103,12 @@ To create the class <code>Cupboard</code> we could create each component of the 
 <summary>8. What is/are the advantage(s) of using composition?
 </summary>
 The advantages of using composition are that:
-* there is no need to override methods in the composed class;  
-* it allows the composed class to accept as many classes as needed;  
-* the composed class is not intaking unnecessary behaviours from its ancestors;  
-* the composed class is not polluted by unnecessary coding (ie duplicated methods coming from different classes just to achieve having only some of those classes behaviours).
+<ul>
+<li> there is no need to override methods in the composed class; </li>  
+<li> it allows the composed class to accept as many classes as needed;  </li>
+<li> the composed class is not intaking unnecessary behaviours from its ancestors;  </li>
+<li> the composed class is not polluted by unnecessary coding (ie duplicated methods coming from different classes just to achieve having only some of those classes behaviours).</li>
+</ul>
 </details>
 
 <details>
