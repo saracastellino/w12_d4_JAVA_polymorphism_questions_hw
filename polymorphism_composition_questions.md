@@ -3,7 +3,7 @@
 # Polymorphism
 
 <details>
-<summary>1. What does the <em>word</em> 'polymorphism' mean?</summary>
+<summary>1. What does the <em>word</em>  'polymorphism' mean?</summary>
 It means "having more than one shape", coming from the Greek πολύμορϕος (πολυ- "multiple-" and μορϕή "shape").
 </details>
 
@@ -27,7 +27,7 @@ It can have as many shapes as the number of classes from which it inherits, bein
 Task: create a paddock that includes horses and unicorns.
 We could create the <code>Horse<code> and <code>Unicorn<code> classes, where <code>Unicorn<code> inherits from <code>Horse<code>, then create an ArrayList of Horses that includes both classes. We can only include both in the same array because <code>unicorn</code> is both an instance of <code>Unicorn</code> and a type of <code>Horse</code>, and each <code>unicorn</code> "is-a" <code>horse</code>. The opposite (all horses are unicorns) is not valid.
 
-
+```
 // HORSE CLASS
 
 public class Horse {
@@ -81,7 +81,7 @@ public class Unicorn extends Horse{
     paddockHorses.add(furious);
     paddockHorses.add(rainbow);
     paddockHorses.add(skye);
-
+```
 </details>
 
 
