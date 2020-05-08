@@ -9,7 +9,7 @@ It means "having more than one shape", coming from the Greek πολύμορϕο�
 
 <details>
 <summary>2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.</summary>
-It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class, and establishes a "is-a" relationship between classes. For example, if we have the class <code>HybridCar</code> and a parent class <code>Car</code>, the `HybridCar`'s instances will be inheriting all the variables and the methods belonging to its parent class `Car` as `HybridCar` "is a" `Car`.
+It means that the objects of a class will have the behaviour (eg. the properties and the methods) of more than one class, more specifically its own plus the ones of its parent class. Polymorphism can in fact only be applied when we have a child class inheriting the properties of the parent class, and establishes a "is-a" relationship between classes. For example, if we have the class <code>HybridCar</code> and a parent class <code>Car</code>, the <code>HybridCar</code>'s instances will be inheriting all the variables and the methods belonging to its parent class <code>Car</code> as <code>HybridCar</code> "is a" <code>Car</code>.
 </details>
 
 <details>
@@ -25,7 +25,7 @@ It can have as many shapes as the number of classes from which it inherits, bein
 <details>
 <summary>5. Give an example of when you could use polymorphism.</summary>
 Task: create a paddock that includes horses and unicorns.
-We could create the `Horse` and `Unicorn` classes, where `Unicorn` inherits from `Horse`, then create an ArrayList of Horses that includes both classes. We can only include both in the same array because `unicorn` is both an instance of `Unicorn` and a type of `Horse`, and each `unicorn` "is-a" `horse`. The opposite (all horses are unicorns) is not valid.
+We could create the <code>Horse<code> and <code>Unicorn<code> classes, where <code>Unicorn<code> inherits from <code>Horse<code>, then create an ArrayList of Horses that includes both classes. We can only include both in the same array because <code>unicorn</code> is both an instance of <code>Unicorn</code> and a type of <code>Horse</code>, and each <code>unicorn</code> "is-a" <code>horse</code>. The opposite (all horses are unicorns) is not valid.
 
 ```
 // HORSE CLASS
@@ -96,7 +96,7 @@ We mean that the objects of a class will have the behaviour of another class, al
 <details>
 <summary>7. When would you use composition? Provide a simple example in Java.</summary>
 Task: create a cupboard.  
-To create the class `Cupboard` we could create each component of the cupboard as a single class, ie `Door`, `Handler`, `Shelf`, `Panel` and use them as instance variables of the class `Cupboard`. We can see at that point how the `Cupboard` "has-a" `Door`, `Handler`, `Shelf`, `Panel`.
+To create the class <code>Cupboard<code> we could create each component of the cupboard as a single class, ie <code>Door</code>, <code>Handler</code>, <code>Shelf</code>, <code>Panel</code> and use them as instance variables of the class <code>Cupboard<code>. We can see at that point how the <code>Cupboard<code> "has-a" <code>Door</code>, <code>Handler</code>, <code>Shelf</code>, <code>Panel</code>.
 </details>
 
 <details>
